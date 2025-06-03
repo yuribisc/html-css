@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: antiquewhite;
+    min-height: 100vh;
+
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header > h1 {
+    font-variant: small-caps;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+section{
+    padding: 10vh 0;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.normal{
+    background-color: white;
+    background-image: url(../img/);
+}
+
+.imagem{
+    background-color: rgb(201, 201, 201);
+    color: white;
+}
+
+.imagem > p{
+    width: 400px;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.164),rgba(0, 0, 0, 0));
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
