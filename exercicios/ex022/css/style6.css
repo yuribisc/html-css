@@ -5,11 +5,16 @@ body{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+
+    /* > Shorhand background <
+
+    background: black url(../img/wallpaper002.jpg) center center no-repeat cover fixed;*/
 }
 
 main{
     background-color: aliceblue;
-    width: 400px;
+    max-width: 400px;
     padding: 10px 20px;
     margin: auto;
     border-radius: 20px;
