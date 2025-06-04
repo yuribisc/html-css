@@ -63,11 +63,24 @@ a:hover{
 .imagem{
     background-color: rgb(66, 66, 66);
     color: white;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.308);
+    background-attachment: fixed;
+
 }
 
 .imagem > p{
     display: inline-block;
-    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.164),rgba(0, 0, 0, 0));
+    text-shadow: 2px 2px 2px black;
+}
+
+#img01{
+    background-image: url(../img/background001.jpg);
+}
+
+#img02{
+    background-image: url(../img/background002.jpg);
 }
 
 footer{
