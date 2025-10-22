@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* TODAS AS OUTRAS VERSÕES */
+
+/* Styles for PRINT */
+@media print {
+    body{
+        background-image: url(../img/back-print.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: block;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+
+/* Styles for TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url(../img/back-tablet.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    img#phone {display: none;}
+    img#tablet {display: block;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: none;}
+}
+
+/* Styles for DESKTOP */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    body{
+        background-image: url(../img/back-pc.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: block;}
+    img#tv {display: none;}
+}
+
+/* Styles for TELAS GRANDES */
+@media screen and (min-width: 1201px) {
+    body{
+        background-image: url(../img/back-tv.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    img#phone {display: none;}
+    img#tablet {display: none;}
+    img#print {display: none;}
+    img#pc {display: none;}
+    img#tv {display: block;}
+}
