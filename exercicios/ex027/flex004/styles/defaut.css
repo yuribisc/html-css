@@ -3,12 +3,11 @@
 div.conteiner{
     background-color: aqua;
     display: flex;
-    flex-flow: row nowrap
 }
 
 div.item {
     background-color: bisque;
     border: 1px solid black;
-    text-align: center;
     flex: auto;
-} 
+    text-align: center;
+}
