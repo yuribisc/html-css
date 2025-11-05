@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+div#conteiner{
+    background-color: aqua;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div.item{
+    background-color: azure;
+    border: 2px solid black;
+    text-align: center;
+    flex-basis: 150px;
+}
+
+div#i1{
+
+}
+
+div#i2{
+
+}
+div#i3{
+
+}
+
+div#i4{
+
+}
+
+div#i5{
+
+}
+
+div#i6{
+
+}
+
+div#i7{
+
+}
+
+div#i8{
+
+}
