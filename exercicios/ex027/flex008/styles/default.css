@@ -4,6 +4,8 @@ div#conteiner{
     background-color: aqua;
     display: flex;
     flex-flow: row wrap;
+    align-items: flex-start;
+    height: 400px;
 }
 
 div.item{
@@ -14,26 +16,26 @@ div.item{
 }
 
 div#i1{
-    order: 0;
+    
 }
 div#i2{
-    order: -2;
+    align-self: auto;
 }
 div#i3{
-    order: 4;
+    align-self: flex-end;
 }
 div#i4{
-    order: 8;
+    
 }
 div#i5{
-    order: 2;
+    align-self: center;
 }
 div#i6{
-    order: 0;
+    
 }
 div#i7{
-    order: -4;
+    align-self: stretch;
 }
 div#i8{
-    order: 0;
+    
 }
