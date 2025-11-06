@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+div.conteiner{
+    background-color: aqua;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+div.item {
+    background-color: bisque;
+    border: 1px solid black;
+    text-align: center;
+    flex-basis: 200px;
+}
+
+div#i1{
+    flex-shrink: 1;
+    flex-grow: 0;
+}
+
+div#i2{
+    flex-shrink: 0;
+    flex-grow: 2;
+}
+
+div#i3{
+    flex-shrink: 2;
+    flex-grow: 1;
+}
