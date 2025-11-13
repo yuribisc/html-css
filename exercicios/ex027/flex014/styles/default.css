@@ -57,11 +57,11 @@ article > div.img, div.media {
 div.media > img {
     display: block;
     margin: auto;
-    width: 400px;
+    height: 300px;
 }
 
 div.media > iframe {
     display: block;
     margin: auto;
-    width: 400px;
+    width: 450px;
 }
