@@ -3,15 +3,11 @@
 div.container{
     border: 1px solid red;
     display: grid;
-    height: 250px;
-    grid-template: repeat(3, auto) / repeat(3, auto);
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: auto auto auto;
     gap: 10px;
-    align-items: normal;
-    justify-items: normal;
-    align-content: normal;    
-    justify-content: normal;
-
-
+    place-items: normal normal;
+    place-content: normal normal;;
 }
 
 div.item {
